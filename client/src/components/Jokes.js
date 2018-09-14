@@ -42,7 +42,7 @@ getJokes = async () => {
 
 onClick = () => {
     localStorage.removeItem('token');
-    this.props.history.push('/');
+    this.props.history.push('/api/login');
 }
 
     render() { 

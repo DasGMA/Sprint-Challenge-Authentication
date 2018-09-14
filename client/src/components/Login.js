@@ -4,20 +4,52 @@ import styled from 'styled-components';
 import axios from 'axios';
 
 const Form = styled.form`
-
-
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    height: 300px;
+    width: 100%;
+    margin: 100px auto 0 auto;
+    border: 1px solid silver;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
 `
 const Input = styled.input`
-
+    margin: 5px 0;
+    height: 30px;
+    max-width: 200px;
+    padding-left: 10px;
+    border-radius: 5px;
 `
 const Text = styled.p`
-
+    
+    
+    > a {
+        text-decoration: none;
+        color: #f4511e;
     
     
 `
 
 const Button = styled.button`
     
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgba(244, 81, 30, 1);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 10px;
+    :hover {
+        background-color: rgba(244, 81, 30, 0.7);
+    }
    
     
 `
