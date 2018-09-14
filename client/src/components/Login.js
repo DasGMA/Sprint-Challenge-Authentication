@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import axios from 'axios';
 
 const Form = styled.form`
+
     display: flex;
     flex-direction: column;
     max-width: 300px;
@@ -15,6 +16,7 @@ const Form = styled.form`
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
+
 `
 const Input = styled.input`
     margin: 5px 0;
@@ -24,15 +26,12 @@ const Input = styled.input`
     border-radius: 5px;
 `
 const Text = styled.p`
-    
-    
-    > a {
+
+    >   a {
         text-decoration: none;
         color: #f4511e;
-    
-    
+    }
 `
-
 const Button = styled.button`
     
     display: inline-block;
@@ -50,9 +49,8 @@ const Button = styled.button`
     :hover {
         background-color: rgba(244, 81, 30, 0.7);
     }
-   
-    
 `
+
 
 
 
