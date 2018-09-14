@@ -7,7 +7,7 @@ const NavWrap = styled.nav`
     height: 75px;
     display: flex;
     align-items: center;
-    background: #414a4c;
+    background: #17252a;
     display: flex;
     justify-content: center;
     font-size: 1.6rem;
@@ -21,7 +21,7 @@ const NavLinks = styled.div`
 
     > a {
         text-decoration: none;
-        color: #fff;
+        color: rgba(244, 81, 30, 1);
     }
 
 `
@@ -34,14 +34,14 @@ const LoginLogout = styled.div`
 
     > a {
         text-decoration: none;
-        color: #fff;
+        color: rgba(244, 81, 30, 1);
     }
 
 `
 
 class Navigation extends Component {
     
-    render() { 
+    render() {
         return ( 
             <NavWrap>
                 <NavLinks>

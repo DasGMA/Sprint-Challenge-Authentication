@@ -7,11 +7,12 @@ import Navigation from './components/Navigation';
 
 
 class App extends Component {
+  
   render() {
     return (
       <Router>
       <div className="App">
-      <Navigation />
+        <Navigation />
        
           <Route path='/api/jokes' component={Jokes} />
           <Route path='/api/login' component={Login} />
